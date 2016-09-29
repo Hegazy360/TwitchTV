@@ -1,0 +1,111 @@
+html {
+  background:#383D51;
+    background: -webkit-linear-gradient(left,#303249, #383D51); 
+    background: -o-linear-gradient(left,#303249, #383D51); 
+    background: -moz-linear-gradient(left,#303249, #383D51); 
+    background: linear-gradient(left,#303249, #383D51);
+}
+body {
+  background:url("https://pre00.deviantart.net/953c/th/pre/f/2014/036/a/c/background_gaming__website__by_fnkk-d758mbq.png");
+  min-height:540px;
+  background-size:100%;
+  background-repeat:no-repeat;
+  min-width:500px;
+  font-family: 'Fira Sans', sans-serif;
+
+}
+.container-fluid {
+  padding:0;
+}
+.header {
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  padding-top:10px;
+}
+.header > img {
+  width:100px;
+  height:100px;
+  min-width:100px;
+  min-height:100px;
+}
+.header > span {
+  font-size:25px;
+  margin-top:auto;
+  margin-bottom:auto;
+}
+.buttons {
+margin:auto;
+display:flex;
+flex-direction:row;
+justify-content:center;
+width:20em;
+margin-bottom:10px;
+margin-top:20px;
+}
+.buttons > button {
+  margin-left:10px;
+  margin-right:10px;
+  width:200px;
+  background-color:inherit;
+  border:1px solid #6441A5;
+  transition:all 0.3s ease-in-out;
+}
+.buttons > button:hover {
+  transform:scale(1.1);
+}
+.channels-container {
+  padding:0;
+/*   border:1px solid #bdc3c7; */
+}
+.online-channels,.offline-channels,.unknown-channels {
+  padding:20px;
+  color:#212121;
+  font-size:17x;
+  display:none;
+}
+.online-channels {
+  background-color:#66BB6A;
+}
+.offline-channels {
+  background-color:#EEEEEE;
+}
+.unknown-channels {
+  background-color:#f44336;
+}
+.logo {
+  min-width:50px;
+  min-height:50px;
+  margin-right:20px;
+  border-radius:50%;
+}
+.title {
+  padding:0;
+  margin:auto;
+  margin-bottom:10px;
+}
+
+.channel-info {
+  display:flex;
+  flex-direction:row;
+  padding:20px;
+  transition:all 0.3s ease-in-out;
+}
+.channel-info:hover {
+  transform-origin:left;
+  transform:scale(1.04);
+}
+.no-transform:hover {
+  transform:none;
+}
+div > hr:nth-last-child(1) {
+  display:none;
+}
+hr {
+  width:90%;
+  border-color:#212121;
+}
+a:link,a:visited,a:hover,a:active {
+ text-decoration: none;
+ color:#212121;
+}
